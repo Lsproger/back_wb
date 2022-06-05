@@ -26,10 +26,10 @@ for e in data1:
         "category": e.get("category"),
         "name": e.get("name"),
         "discount": int(e.get("discount")),
-        "price": float(e.get("discount"), ),
-        "count": int(e.get("discount")),
-        "image": e.get("discount"),
-        "id": int(e.get("discount"))
+        "price": float(e.get("price"), ),
+        "count": 0,
+        "image": e.get("image"),
+        "id": int(e.get("id"))
     }
     result.append(el)
 
@@ -41,7 +41,7 @@ for e in data2:
         "name": e[2].replace(r"%2C", ","),
         "discount": int(random.random() * 30),
         "price": float(e[3]),
-        "count": int(random.random() * 100) ,
+        "count": 0,
         "image": e[1],
         "id": id
     }

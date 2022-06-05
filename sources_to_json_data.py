@@ -25,7 +25,7 @@ idd = 0
 
 for e in data1:
     el = {
-        "category": e.get("category"),
+        "category": data2[idd][0],
         "name": data2[idd][2].replace(r"%2C", ","),
         "discount": int(e.get("discount")),
         "price": float(data2[idd][3]),

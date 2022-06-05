@@ -1,0 +1,4 @@
+penv/*
+data2.csv
+database.json
+**.pyc

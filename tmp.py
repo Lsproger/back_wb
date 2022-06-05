@@ -30,7 +30,7 @@ for e in data1:
         "discount": int(e.get("discount")),
         "price": float(data2[idd][3]),
         "count": 0,
-        "image": data2[idd][2],
+        "image": data2[idd][1],
         "id": int(e.get("id"))
     }
     idd += 1
